@@ -6,6 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+:root {
+  --main-red: #881515;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +17,39 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.5em 0 0 4em;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 4em;
+}
+
+h3 {
+  padding: 0 1em;
+  margin: 19.92px 0;
+}
+
+.name-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.intro {
+  width: 500px;
+}
+
+.button-color {
+  background-color: var(--main-red);
+  color: white;
 }
