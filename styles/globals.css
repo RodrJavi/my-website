@@ -42,14 +42,51 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 200px;
+  width: 300px;
 }
 
 .intro {
   width: 500px;
 }
 
-.button-color {
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--main-red);
   color: white;
+  border-radius: 6px;
+  padding: 7px 20px;
+  margin: 5px;
+  width: 100%;
+}
+
+.button-outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color:  var(--main-red);
+  border: 3px solid var(--main-red);
+  border-radius: 6px;
+  padding: 7px 20px;
+  margin: 5px;
+  width: 100%;
+}
+
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 2px;
+}
+
+.hero-name {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero {
+  font-size: 50px;
+  font-weight: bold;
 }

@@ -2,16 +2,15 @@ import React from "react";
 import Button from "./Button"
 
 const Intro = () => {
-  return <div className="intro">
-    <div>
-      <h1>Javier.</h1>
-      <br />
-      <p>Web Developer.</p>
+  return <div>
+    <div className="hero-card">
+      <span className="hero-name">Javier.</span>
+      <span className="hero">Web Developer.</span>
     </div>
 
     <div className="name-buttons">
       <Button text="See my Work"></Button>
-      <Button text="Get in touch"></Button>
+      <Button text="Get in touch" outline="outline"></Button>
     </div>
 
   </div>;
