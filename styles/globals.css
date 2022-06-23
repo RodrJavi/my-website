@@ -19,6 +19,10 @@ a {
   box-sizing: border-box;
 }
 
+.hero-container {
+  margin: 1.5em 0 0 4em;
+}
+
 .header-left {
   display: flex;
   flex-direction: row;
@@ -55,7 +59,7 @@ h3 {
   align-items: center;
   background-color: var(--main-red);
   color: white;
-  border-radius: 6px;
+  border-radius: 30px;
   padding: 7px 20px;
   margin: 5px;
   width: 100%;
@@ -67,8 +71,9 @@ h3 {
   align-items: center;
   background-color: white;
   color:  var(--main-red);
-  border: 3px solid var(--main-red);
-  border-radius: 6px;
+  box-shadow: inset 0px 0px 0px 1.5px var(--main-red);
+  border-radius: 30px;
+  box-sizing: border-box;
   padding: 7px 20px;
   margin: 5px;
   width: 100%;
@@ -89,4 +94,9 @@ h3 {
 .hero {
   font-size: 50px;
   font-weight: bold;
+}
+
+.icons {
+  height: 30px;
+  width: 30px;
 }
