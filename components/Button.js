@@ -1,8 +1,8 @@
-import React from "react";
-
-const Button = ({ text, outline }) => {
+const Button = ({ children, outline, className = "" }) => {
   return (
-    <div className={` ${outline ? "button-outline" : "button"}`}>{text}</div>
+    <div className={`${outline ? "button-outline" : "button"} ${className}`}>
+      {children}
+    </div>
   );
 };
 
