@@ -3,7 +3,7 @@ const AboutMePicture = () => {
     <div>
       <img
         className="about-me-pic"
-        src="https://via.placeholder.com/600x400"
+        src="https://via.placeholder.com/400x450"
         alt=""
       />
       <span className="dot top-dot"></span>

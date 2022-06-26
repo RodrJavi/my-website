@@ -36,8 +36,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      <section className="about-me-section">
         <AboutMePicture></AboutMePicture>
+        <p>This is some example text that will be going in the about me section that is to be used to help me figure out the spacing of the paragraph.</p>
       </section>
     </div>
   );
