@@ -36,6 +36,10 @@ a {
   justify-content: space-between;
 }
 
+.header-right a {
+  
+}
+
 .corner-name {
   display: flex;
   align-items: center;
@@ -71,6 +75,13 @@ h3 {
   margin: 5px;
 }
 
+.button:hover{
+  color: var(--main-red);
+  background-color: white;
+  box-shadow: inset 0px 0px 0px 1.5px var(--main-red);
+  cursor: pointer;
+}
+
 .button-outline {
   display: flex;
   justify-content: center;
@@ -82,6 +93,12 @@ h3 {
   box-sizing: border-box;
   padding: 7px 20px;
   margin: 5px;
+}
+
+.button-outline:hover {
+  color: white;
+  background-color: var(--main-red);
+  cursor: pointer;
 }
 
 .hero-button {
@@ -190,7 +207,7 @@ h3 {
   display: flex;
   gap: 100px;
   margin-top: 70px;
-  overflow: hidden;
+  overflow-x: scroll;
 }
 
 .h-full {
@@ -234,11 +251,13 @@ h3 {
 
 .about-me-pic-container{
   position: relative;
+  width: 400px;
+  height: 450px;
 }
 
 .about-me-pic {
-  width: 400px;
-  height: 450px;
+  min-width: 400px;
+  min-height: 450px;
   border-radius: 40px;
   object-fit: cover;
 }

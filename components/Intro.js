@@ -12,20 +12,20 @@ const Intro = () => {
         </div>
 
         <div className="name-buttons">
-          <Button className="hero-button">See my Work</Button>
-          <Button className="hero-button" outline="outline">
+          <Button link="#projects" className="hero-button">See my Work</Button>
+          <Button link="#contact" className="hero-button" outline="outline">
             Get in touch
           </Button>
         </div>
 
         <div className="icon-container">
-          <a className="icons" href="https://github.com/RodrJavi">
+          <a className="icons" target="_blank" href="https://github.com/RodrJavi">
             <Icon className="icons" icon="mdi:github"></Icon>
           </a>
-          <a href="https://www.linkedin.com/in/rodriguezjavi/" class="icons">
+          <a target="_blank" href="https://www.linkedin.com/in/rodriguezjavi/" className="icons">
             <Icon className="icons" icon="mdi:linkedin"></Icon>
           </a>
-          <a href="https://www.instagram.com/the.yung.javi/" class="icons">
+          <a target="_blank" href="https://www.instagram.com/the.yung.javi/" className="icons">
             <Icon className="icons" icon="mdi:instagram"></Icon>
           </a>
         </div>

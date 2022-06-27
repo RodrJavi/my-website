@@ -1,8 +1,10 @@
-const Button = ({ children, outline, className = "" }) => {
+const Button = ({ children, outline, className = "", link }) => {
   return (
-    <div className={`${outline ? "button-outline" : "button"} ${className}`}>
-      {children}
-    </div>
+    <a href={link}>
+      <div className={`${outline ? "button-outline" : "button"} ${className}`}>
+        {children}
+      </div>
+    </a>
   );
 };
 

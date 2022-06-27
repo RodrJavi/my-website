@@ -18,14 +18,14 @@ const ContactBubble = () => {
         <span>Web Developer</span>
 
         <div className="icon-container">
-          <a className="icons" href="https://github.com/RodrJavi">
+          <a className="icons" target="_blank" href="https://github.com/RodrJavi">
             <Icon className="icons" icon="mdi:github"></Icon>
           </a>
-          <a href="https://www.linkedin.com/in/rodriguezjavi/" class="icons">
-            <Icon className="icons" icon="mdi:linkedin"></Icon>
+          <a href="https://www.linkedin.com/in/rodriguezjavi/" className="icons">
+            <Icon className="icons" target="_blank" icon="mdi:linkedin"></Icon>
           </a>
-          <a href="https://www.instagram.com/the.yung.javi/" class="icons">
-            <Icon className="icons" icon="mdi:instagram"></Icon>
+          <a href="https://www.instagram.com/the.yung.javi/" className="icons">
+            <Icon className="icons" target="_blank" icon="mdi:instagram"></Icon>
           </a>
         </div>
       </div>

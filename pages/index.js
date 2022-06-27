@@ -18,16 +18,16 @@ export default function Home() {
         <nav className="header-left">
           <span className="corner-name">Javier Rodriguez</span>
           <div className="header-right">
-            <h3>Projects</h3>
-            <h3>About</h3>
-            <h3>Contact</h3>
+            <h3><a href="#projects">Projects</a></h3>
+            <h3><a href="#about">About</a></h3>
+            <h3><a href="#contact">Contact</a></h3>
           </div>
         </nav>
 
         <Intro></Intro>
       </div>
 
-      <section className="project-section">
+      <section id="projects" className="project-section">
         <div className="container">
           <h2>Projects</h2>
           <div className="card-section">
@@ -39,19 +39,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="about-me-section">
+      <section id="about" className="about-me-section">
         <AboutMePicture></AboutMePicture>
         <div className="about-me-text">
           <h2>About Me</h2>
           <p>
-            This is some example text that will be going in the about me section
-            that is to be used to help me figure out the spacing of the
-            paragraph.
+            I have always had an interest in anything computer science related and knew I wanted to have a career in it. 
+            I was exposed to web development in late 2021 and absolutely loved it, since then I have taken front-end courses,
+            created projects, and accepted project challenges in order to reinforce everything I have been learning and obtain new knowledge along the way.
           </p>
         </div>
       </section>
 
-      <section className="contact-section">
+      <section id="contact" className="contact-section">
         <div className="contact-section-body">
           <span className="interest">
             Are You Interested? <br></br> Say Hi!
