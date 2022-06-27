@@ -1,10 +1,14 @@
+import Image from "next/image";
+
 const AboutMePicture = () => {
   return (
-    <div>
-      <img
+    <div className="about-me-pic-container">
+      <Image
         className="about-me-pic"
-        src="https://via.placeholder.com/400x450"
+        src="/about_me_new.jpg"
         alt=""
+        width="400px"
+        height="450px"
       />
       <span className="dot top-dot"></span>
       <span className="dot bottom-dot"></span>

@@ -1,22 +1,21 @@
-import Button from "./Button";
 import { Icon } from "@iconify/react";
-import HeroPicture from "./HeroPicture";
+import Image from "next/image";
 
-const Intro = () => {
+const ContactBubble = () => {
   return (
-    <div className="hero-container">
-      <div>
-        <div className="hero-card">
-          <span className="hero-name">Javier.</span>
-          <span className="hero">Web Developer.</span>
-        </div>
-
-        <div className="name-buttons">
-          <Button className="hero-button">See my Work</Button>
-          <Button className="hero-button" outline="outline">
-            Get in touch
-          </Button>
-        </div>
+    <div className="contact-bubble">
+      <div className="image-parent">
+        <Image
+          className="contact-pic"
+          src="/contact.jpg"
+          alt=""
+          width="120px"
+          height="120px"
+        />
+      </div>
+      <div className="contact-body">
+        <h2>Javier Rodriguez</h2>
+        <span>Web Developer</span>
 
         <div className="icon-container">
           <a className="icons" href="https://github.com/RodrJavi">
@@ -30,10 +29,8 @@ const Intro = () => {
           </a>
         </div>
       </div>
-
-      <HeroPicture></HeroPicture>
     </div>
   );
 };
 
-export default Intro;
+export default ContactBubble;

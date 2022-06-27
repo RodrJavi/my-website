@@ -2,6 +2,8 @@ import Head from "next/head";
 import Intro from "/components/Intro";
 import Card from "/components/Card";
 import AboutMePicture from "../components/AboutMePicture";
+import ContactBubble from "../components/ContactBubble";
+import ContactForm from "../components/ContactForm";
 
 export default function Home() {
   return (
@@ -32,13 +34,31 @@ export default function Home() {
             <Card></Card>
             <Card></Card>
             <Card></Card>
+            <Card></Card>
           </div>
         </div>
       </section>
 
       <section className="about-me-section">
         <AboutMePicture></AboutMePicture>
-        <p>This is some example text that will be going in the about me section that is to be used to help me figure out the spacing of the paragraph.</p>
+        <div className="about-me-text">
+          <h2>About Me</h2>
+          <p>
+            This is some example text that will be going in the about me section
+            that is to be used to help me figure out the spacing of the
+            paragraph.
+          </p>
+        </div>
+      </section>
+
+      <section className="contact-section">
+        <div className="contact-section-body">
+          <span className="interest">
+            Are You Interested? <br></br> Say Hi!
+          </span>
+          <ContactBubble></ContactBubble>
+        </div>
+        <ContactForm></ContactForm>
       </section>
     </div>
   );

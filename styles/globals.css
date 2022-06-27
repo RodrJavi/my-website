@@ -140,7 +140,9 @@ h3 {
   background-color: gray;
   border-radius: 40px;
   width: 600px;
-  height: 400px;
+  height: 450px;
+  object-fit: cover;
+  
 }
 
 .dot {
@@ -165,13 +167,13 @@ h3 {
   width: 110px;
   height: 110px;
   top: 25px;
-  right: 550px;
+  left: -50px;
 }
 
 .br {
   width: 150px;
   height: 150px;
-  top: 315px;
+  bottom: -65px;
   right: -45px;
 }
 
@@ -188,6 +190,7 @@ h3 {
   display: flex;
   gap: 100px;
   margin-top: 70px;
+  overflow: hidden;
 }
 
 .h-full {
@@ -195,7 +198,7 @@ h3 {
 }
 
 .card {
-  width: 300px;
+  min-width: 300px;
   background-color: white;
   border-radius: 12px;
   overflow: hidden;
@@ -225,23 +228,128 @@ h3 {
 .about-me-section {
   display: flex;
   padding: 150px;
+  gap: 70px;
+  justify-content: center;
+}
+
+.about-me-pic-container{
+  position: relative;
 }
 
 .about-me-pic {
-  position: relative;
   width: 400px;
   height: 450px;
+  border-radius: 40px;
+  object-fit: cover;
 }
 
 .top-dot{
-  height: 85px;
-  width: 85px;
+  height: 60px;
+  width: 60px;
   top: -40px;
-  right: -90px;
+  right: 55px;
+  z-index: -1;
 }
 
 .bottom-dot{
-  height: 110px;
-  width: 110px;
-  
+  height: 90px;
+  width: 90px;
+  top: 405px;
+  right: 280px;
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 400px;
+}
+
+.contact-section{
+  background-color: #f4f4f4;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+}
+
+.contact-bubble{
+  display: flex;
+  gap: 15px;
+  border-radius: 90px;
+  width: 425px;
+  height: 160px;
+  padding: 20px;
+  background-color: white;
+}
+
+.contact-bubble h2 {
+  margin: 0;
+}
+
+.contact-bubble span{
+  font-size: 20px;
+}
+.contact-bubble span {
+  margin-top: 10px;
+}
+
+.image-parent {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.contact-pic{
+  object-fit: cover;
+  object-position: -10px center ;
+  transform: scale(130%);
+}
+
+.contact-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-section-body {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.interest {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.form-object{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 13px;
+  width: 300px;
+  height: 350px;
+}
+
+.form-object button{
+  border: none;
+  height: 35px;
+  font-size: 15px;
+}
+
+.form-email {
+  border-radius: 8px;
+  height: 40px;
+  font-size: 20px;
+  text-indent: 10px;
+  font-family: sans-serif;
+}
+
+.form-body {
+  border-radius: 8px;
+  height: 150px;
+  font-size: 20px;
+  text-indent: 10px;
+  font-family: sans-serif;
 }
