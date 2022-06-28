@@ -91,7 +91,7 @@ export default function Home() {
             challenges in order to reinforce everything I have been learning and
             obtain new knowledge along the way.
           </p>
-          <p>My current goals are...</p>
+          {/* <p>My current goals are...</p> */}
         </div>
       </section>
 
