@@ -4,7 +4,6 @@ import Card from "/components/Card";
 import AboutMePicture from "../components/AboutMePicture";
 import ContactBubble from "../components/ContactBubble";
 import ContactForm from "../components/ContactForm";
-import { useState } from "react";
 
 export default function Home() {
   const repoList = [
