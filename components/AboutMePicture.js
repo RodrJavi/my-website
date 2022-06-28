@@ -5,7 +5,7 @@ const AboutMePicture = () => {
     <div className="about-me-pic-container">
       <Image
         className="about-me-pic"
-        src="/about_me_new.jpg"
+        src="/pictures/about_me_new.jpg"
         alt=""
         width="400px"
         height="450px"

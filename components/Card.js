@@ -1,24 +1,20 @@
 import Button from "./Button.js";
 
-const Card = () => {
+const Card = ({ pic, title, body, source, site }) => {
   return (
     <div className="card">
-      <img
-        className="card-image"
-        src="https://via.placeholder.com/300x150"
-        alt=""
-      />
+      <img className="card-image" src={pic} alt=""></img>
       <div className="card-body">
         <div>
-          <h3>Project 1</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, at
-            nemo exercitationem accusamus eos corrupti consequatur officia cum
-            architecto dolorum, est rem aut facilis modi.
-          </p>
+          <h3>{title}</h3>
+          <p>{body}</p>
         </div>
-        <Button outline>View Source</Button>
-        <Button>Visit Site</Button>
+        <div>
+          <Button link={source} outline>
+            View Source
+          </Button>
+          <Button link={site}>Visit Site</Button>
+        </div>
       </div>
     </div>
   );
