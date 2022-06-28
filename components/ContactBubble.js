@@ -22,17 +22,22 @@ const ContactBubble = () => {
             className="icons"
             target="_blank"
             href="https://github.com/RodrJavi"
+            rel="noreferrer"
           >
-            <Icon className="icons" icon="mdi:github"></Icon>
+            <Icon className="icons" icon="mdi:github" />
           </a>
           <a
             href="https://www.linkedin.com/in/rodriguezjavi/"
             className="icons"
           >
-            <Icon className="icons" target="_blank" icon="mdi:linkedin"></Icon>
+            <Icon className="icons" target="_blank" icon="mdi:linkedin" />
           </a>
-          <a href="https://www.instagram.com/the.yung.javi/" className="icons">
-            <Icon className="icons" target="_blank" icon="mdi:instagram"></Icon>
+          <a
+            rel="noreferrer"
+            href="https://www.instagram.com/the.yung.javi/"
+            className="icons"
+          >
+            <Icon className="icons" target="_blank" icon="mdi:instagram" />
           </a>
         </div>
       </div>

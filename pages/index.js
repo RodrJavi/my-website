@@ -9,28 +9,28 @@ import { useState } from "react";
 export default function Home() {
   const repoList = [
     {
-      pic: "pictures/advice_generator.png",
+      pic: "/pictures/advice_generator.png",
       title: "Random Advice Generator",
       body: "This project was my introductory attempt at using fetch API. Each time the randomize buton is clicked, a new random piece of advice will appear.",
       source: "https://github.com/RodrJavi/advice-generator-app-main",
       site: "https://rodrjavi.github.io/advice-generator-app-main/",
     },
     {
-      pic: "pictures/interactive_rating.jpg",
+      pic: "/pictures/interactive_rating.jpg",
       title: "Interactive rating component",
       body: "This project was my first attempt at using Javascript in a practical manner, a rating is selected, then upon submission a thank you screen appears with the same value chosen.",
       source: "https://github.com/RodrJavi/interactive-rating-component",
       site: "https://rodrjavi.github.io/interactive-rating-component/",
     },
     {
-      pic: "pictures/task_tracker.jpg",
+      pic: "/pictures/task_tracker.jpg",
       title: "React Task Tracker",
       body: "This project was my introduction to React, with this application you can set a date and name for a task to be added in a list. Double-clicking will set a reminder",
       source: "https://github.com/RodrJavi/react-task-tracker",
       site: "https://react-task-tracker-inky.vercel.app/",
     },
     {
-      pic: "pictures/nft_card.png",
+      pic: "/pictures/nft_card.png",
       title: "NFT Card Preview",
       body: "This project was my first ever attempt at HTML and CSS. This taught me how to use flexbox and hover effects. It's a simple card that displays an image of an NFT, the price, and the creator",
       source: "https://github.com/RodrJavi/nft-preview-card-component-solution",
@@ -42,7 +42,7 @@ export default function Home() {
     <div>
       <div className="container h-full">
         <Head>
-          <title>Javier's site</title>
+          <title>Javier&apos;s site</title>
           <meta
             name="description"
             content="Javier Rodriguez's web development portfolio"
