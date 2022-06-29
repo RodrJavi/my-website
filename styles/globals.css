@@ -182,6 +182,7 @@ h3 {
   height: 110px;
   top: 25px;
   left: -50px;
+  z-index: 1;
 }
 
 .br {

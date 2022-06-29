@@ -1,9 +1,9 @@
-const Button = ({ children, outline, className = "", link }) => {
+const Button = ({ children, outline, className = "", link, self }) => {
   return (
     <a
       className={`${outline ? "button-outline" : "button"} ${className}`}
       href={link}
-      target="blank"
+      target={`${self ? "_self" : "_blank"}`}
     >
       {children}
     </a>

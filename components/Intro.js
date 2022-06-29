@@ -12,10 +12,10 @@ const Intro = () => {
         </div>
 
         <div className="name-buttons">
-          <Button link="#projects" className="hero-button">
+          <Button link="#projects" className="hero-button" self>
             See my Work
           </Button>
-          <Button link="#contact" className="hero-button" outline="outline">
+          <Button link="#contact" className="hero-button" outline="outline" self>
             Get in touch
           </Button>
         </div>
