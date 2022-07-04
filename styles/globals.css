@@ -397,7 +397,7 @@ h3 {
   .h-full {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 100%;
   }
 
   .hero-container {
@@ -530,6 +530,13 @@ h3 {
     padding: 50px 0 60px 0;
     overflow: hidden;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me-parent {
+    display: flex;
+    justify-content: center;
   }
 
   .about-me-pic {
@@ -612,5 +619,13 @@ h3 {
     justify-content: center;
     height: 156px;
     width: 156px;
+  }
+
+  .form-object {
+    max-width: none;
+  }
+
+  .form-object button {
+    max-width: none;
   }
 }
