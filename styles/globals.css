@@ -5,6 +5,7 @@ body {
   font-family: sans-serif;
 }
 
+
 :root {
   --main-red: #881515;
   --main-red-transparent: #881515f3;
@@ -384,4 +385,31 @@ h3 {
   font-size: 20px;
   text-indent: 10px;
   font-family: sans-serif;
+}
+
+@media screen and (max-width: 1399px) {
+  .h-full {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .dot {
+    display: none;
+  }
+
+  .header-left{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-section{
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-bubble {
+    width: auto;
+  }
 }
