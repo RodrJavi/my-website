@@ -41,7 +41,7 @@ export default function Home() {
     <div>
       <div className="container h-full">
         <Head>
-          <title>Javier&apos;s site</title>
+          <title>Javier Rodriguez</title>
           <meta
             name="description"
             content="Javier Rodriguez's web development portfolio"

@@ -131,6 +131,10 @@ h3 {
   margin: 0;
 }
 
+.m-hero-container {
+  display: none;
+}
+
 .icons {
   height: 40px;
   width: 40px;
@@ -358,13 +362,13 @@ h3 {
   flex-direction: column;
   justify-content: center;
   gap: 13px;
-  width: 300px;
+  max-width: 300px;
   height: 350px;
 }
 
 .form-object button {
   border: none;
-  width: 300px;
+  max-width: 300px;
   height: 35px;
   font-size: 15px;
 }
@@ -388,11 +392,95 @@ h3 {
 }
 
 @media screen and (max-width: 1399px) {
+
+  
   .h-full {
     display: flex;
     flex-direction: column;
+    height: 90vh;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    padding: 0;
+    gap: 30px;
+    display: none;
+  }
+
+  .m-hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 25px;
+  }
+
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .corner-name{
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .hero {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 15px 0;
+  }
+
+  .hero-button {
+    height: 50px;
+  }
+
+  .icon-container {
+    width: 100%;
+    justify-content: center;
+    gap: 8%;
+  }
+
+  .picture-container {
+    width: 100%;
+  }
+
+  .picture {
+    width: 100%;
+    border-radius: 0;
+    overflow: hidden;
+    object-position: center center;
   }
   
+
+  .name-buttons {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    margin: 30px 0 0 0;
+  }
+
+  .hero-button{
+    max-width: 100%;
+    margin: 0px 20px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .hero-name {
+    display: none;
+  }
 
   .dot {
     display: none;
@@ -401,15 +489,128 @@ h3 {
   .header-left{
     display: flex;
     flex-direction: column;
+    padding: 40px 0 0 0;
+  }
+
+  .project-section {
+    padding: 20px 0 0 0;
+  }
+
+  .project-section h2 {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .card-section {
+    padding: 0 0 70px 40px;
+    margin: 0;
+    gap: 20px;
+  }
+
+
+  .card {
+    min-width: 250px;
+  }
+
+  .card-body {
+    gap: 0;
+    justify-content: center;
+    padding: 0 15px;
+  }
+
+
+  .card-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-me-section {
+    flex-direction: column;
+    padding: 50px 0 60px 0;
+    overflow: hidden;
+    gap: 10px;
+  }
+
+  .about-me-pic {
+    width: 100%;
+    border-radius: 0;
+  }
+
+
+  .about-me-pic-container {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .about-me-text {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me-text h2 {
+    font-size: 45px;
+    letter-spacing: 1.5px;
+  }
+
+  .about-me-text {
+    padding: 0 40px;
   }
 
   .contact-section{
     gap: 0px;
+    padding: 0 35px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-section-body {
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0 0;
+  }
+
+  .contact-section-body span {
+    text-align: center;
   }
 
   .contact-bubble {
     width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .contact-bubble h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .contact-body {
+    gap: 10px;
+  }
+
+  .contact-body span {
+    font-size: 30px;
+  }
+
+  .image-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 156px;
+    width: 156px;
   }
 }

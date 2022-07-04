@@ -16,7 +16,7 @@ const Card = ({ pic, title, body, source, site }) => {
           <h3>{title}</h3>
           <p>{body}</p>
         </div>
-        <div>
+        <div className="card-buttons">
           <Button link={source} outline>
             View Source
           </Button>
