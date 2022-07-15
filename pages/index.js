@@ -8,6 +8,13 @@ import ContactForm from "../components/ContactForm";
 export default function Home() {
   const repoList = [
     {
+      pic: "/pictures/lift2.jpg",
+      title: "Lift Tracker",
+      body: "This is my largest and most recent project using Next.js. This application is used to create workout sessions and actively track your own progress while exercising.",
+      source: "https://github.com/RodrJavi/lift-tracker",
+      site: "https://www.lift-tracker.rodrjavi.dev/",
+    },
+    {
       pic: "/pictures/advice_generator.png",
       title: "Random Advice Generator",
       body: "This project was my introductory attempt at using fetch API. Each time the randomize buton is clicked, a new random piece of advice will appear.",
