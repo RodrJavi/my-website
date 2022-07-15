@@ -8,7 +8,7 @@ import ContactForm from "../components/ContactForm";
 export default function Home() {
   const repoList = [
     {
-      pic: "/pictures/Lift2.jpg",
+      pic: "/pictures/biglift.jpg",
       title: "Lift Tracker",
       body: "This is my largest and most recent project using Next.js. This application is used to create workout sessions and actively track your own progress while exercising.",
       source: "https://github.com/RodrJavi/lift-tracker",
