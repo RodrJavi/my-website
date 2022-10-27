@@ -8,9 +8,16 @@ import ContactForm from "../components/ContactForm";
 export default function Home() {
   const repoList = [
     {
+      pic: "/pictures/countries_app.png",
+      title: "Countries App",
+      body: "In order to become familiar with Nuxt 3 this application was created using the restcountries API to show every country and provide notable information such as population, currencies, languages, etc.",
+      source: "https://github.com/RodrJavi/countries-nuxt",
+      site: "https://countries-nuxt.vercel.app/",
+    },
+    {
       pic: "/pictures/biglift.jpg",
       title: "Lift Tracker",
-      body: "This is my largest and most recent project using Next.js. This application is used to create workout sessions and actively track your own progress while exercising.",
+      body: "This application is created using NextJS and is used to create workout sessions and actively track your own progress while exercising.",
       source: "https://github.com/RodrJavi/lift-tracker",
       site: "https://www.lift-tracker.rodrjavi.dev/",
     },
